@@ -1,0 +1,170 @@
+.container-box{
+    display:block;
+    margin: 0;
+    padding: 0;
+}
+.nav-con{
+    width: 5%;
+    margin: auto;
+    padding-top: 10px;
+}
+.nav-bar{
+    width: 33px;
+    height: 30px;
+    color: white;
+}
+nav{
+    background-color: white;
+    height: 50px;   
+}
+.flex{
+    display: flex;
+}
+.row{
+    flex-direction: row;
+}
+.col{
+    flex-direction: column;
+}
+.jc-sb{
+    justify-content: space-between;
+}
+.jc-c{
+    justify-content: center;
+}
+.ac-sb{
+    align-content: space-between;
+}
+.mt-70{
+
+}
+.row-col-50{
+    flex-basis: 50%;
+}
+.row-col-auto{
+    flex-basis: auto
+}
+.row-col-100{
+    flex-basis: 100%
+}
+.section{
+    width: 100%;
+    margin: 0px;
+}
+.row-r {
+    flex-direction: row-reverse;
+}
+.sec-one{
+    background-image: url(../Images/portrait-cheerful-handsome-bearded-guy-with-fashionable-hairstyle-smiling1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 750px;
+}
+.card-con{
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    margin-top: 40px;
+    margin-right: 100px;
+    position: relative;
+}
+.card-pellets{
+    background-color: #f1e00e;
+    margin-left: 25px;
+    width: 300px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+}
+.g-yellow{
+    color: #f1e00e;
+}
+.g-ash{
+    color: #f2f2f2
+}
+.card-pellets-2{
+    position: absolute;
+    bottom: 20px;
+    background-color: #f1e00e;
+    margin-left: 25px;
+    width: 300px;
+    height: 20px;
+}
+.u-font-montserrat {
+    font-family: Montserrat, sans-serif !important;
+}
+.card-body{
+    position: absolute;
+}
+.card-con-header1{
+    margin-top: 25px;
+    font-size: 25px;
+    margin-left: 0;
+    font-weight: 100;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+    
+}
+.card-con-header2{
+    font-size: 3.5rem;
+    font-weight: 750;
+    margin: 40px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 15px;
+}
+.card-con-cont{
+    padding: 30px;
+    padding-left: 22px;
+    padding-right: 22px;
+    background-color: inherit;
+    height: 30px;
+    width: auto;
+}
+.card-con-pgh{
+    font-weight: bold;
+    line-height: 27px;
+}
+.sec-two{
+    background-color: white;
+    height: 750px;
+    margin-top: 200px;
+}
+.card-con1{
+    width: 33%;
+    height: 350px;
+    background-color: #f1e00e;
+}
+.card-con2{
+    width: 80%;
+    height: 250px;
+    background-color: #f2f2f2;
+    position: absolute;
+    top: -150
+}
+.card-con3{
+    width: 80%;
+    height: 250px;
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: -450px;
+}
+.post-cd{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec-two-heading{
+    font-size: 60px; 
+    font-weight: 800; 
+    text-align: center; 
+    line-height: 10px;
+}
+.sec-two-pgh{
+    width: 80%; 
+    margin: auto; 
+    padding-left: 10px; 
+    text-align: center;
+}
